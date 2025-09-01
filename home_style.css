@@ -1,0 +1,65 @@
+@import url(cor.css);
+
+body {
+    background-color: var(--cor-fundo-body);
+}
+
+main { 
+    text-align: center;
+    margin-top: 20px;
+}
+
+main h2 {
+    text-align: left;
+    font-size: 2.5em;
+    color: var(--cor-cabecalho-inicial);
+    text-shadow: 3px 3px 8px rgba(10, 10, 10, 0.5);
+    margin-bottom: 15px;    
+    letter-spacing: 1px;
+
+}
+
+.sobremim {
+    padding: 10px;
+    margin-top: 15px;
+}
+
+
+.sobremim p {
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.card-curso {
+    display: inline-block;
+    border-radius: 15px;
+    width: 280px;
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.411) (0, 0, 0, 0.103);
+    text-align: center;
+    margin: 20px;
+    background-color: var(--cor-card);
+    color: var(--cor-letras-link);
+    
+}
+
+.card-curso > img {
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+
+}
+
+.card-curso >h3 {
+    margin: 15px 0px;
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+.card-curso >p {
+    text-align: left;
+    padding: 10px;
+    letter-spacing: 1px;
+}
