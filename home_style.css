@@ -1,4 +1,7 @@
 @import url(cor.css);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 body {
     background-color: var(--cor-fundo-body);
@@ -10,56 +13,120 @@ main {
 }
 
 main h2 {
-    text-align: left;
-    font-size: 2.5em;
+    text-align: center;
+    font-size: 3.2em;
     color: var(--cor-cabecalho-inicial);
-    text-shadow: 3px 3px 8px rgba(10, 10, 10, 0.5);
+    text-shadow: 4px 3px 8px rgba(255, 255, 255, 0.699);
     margin-bottom: 15px;    
-    letter-spacing: 1px;
-
-}
-
-.sobremim {
-    padding: 10px;
-    margin-top: 15px;
+    letter-spacing: 2px;
+    font-family: "Bebas Neue", Arial;
 }
 
 
 .sobremim p {
+    padding: 10px 80px;
+    color: var(--cor-letras-p);
     text-align: left;
     font-size: 1.2em;
-    font-weight: 300;
+    letter-spacing: 1px;
 }
+
 
 .card-curso {
     display: inline-block;
     border-radius: 15px;
-    width: 280px;
-    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.411) (0, 0, 0, 0.103);
+    width: 380px;
+    height: 430px;
     text-align: center;
-    margin: 20px;
+    margin: 15px;
     background-color: var(--cor-card);
     color: var(--cor-letras-link);
-    
 }
 
+.card-curso:hover {
+    transform: scale(1.10);
+}
 .card-curso > img {
-    width: 100%;
-    height: 160px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    width: 90%;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
     object-fit: cover;
-
 }
 
 .card-curso >h3 {
-    margin: 15px 0px;
-    font-size: 1.2em;
-    opacity: 0.9;
+    margin: 1px 10px;
+    font-size: 1.5em;
+    font-family: "Bebas Neue", Arial;
+    letter-spacing: 3px;
 }
 
 .card-curso >p {
     text-align: left;
     padding: 10px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    color: var(--cor-letras-link);
 }
+
+.card-curso-lot {
+    display: inline-block;
+    border-radius: 15px;
+    width: 380px;
+    height: 440px;
+    text-align: center;
+    margin: 15px;
+    background-color: var(--cor-card);
+    color: var(--cor-letras-link);
+    
+}
+
+.card-curso-lot:hover {
+    transform: scale(1.10);
+}
+
+.card-curso-lot > img {
+    width: 90%;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.card-curso-lot > h3 {
+    margin: 1px 10px;
+    font-size: 1.3em;
+    font-family: "Bebas Neue", Arial;
+    letter-spacing: 3px;
+}
+
+.card-curso-lot > p {
+    text-align: left;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: var(--cor-letras-link);
+}
+
+
+
+
+.card-projeto {
+    display: inline-block;
+    border-radius: 15px;
+    width: 480px;
+    height: 220px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.534);
+    text-align: center;
+    margin: 20px;
+    background-color: var(--cor-card);
+    color: var(--cor-letras-link);
+}
+
+.card-projeto > h3 {
+    text-align: center;
+    margin: 20px;
+    font-family: "Bebas Neue", Arial;
+    letter-spacing: 2px;
+
+}
+

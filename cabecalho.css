@@ -38,7 +38,8 @@ header h2 {
 
 nav {
     margin-top: 32px;
-    margin-bottom: 16px;
+    margin-bottom: 66px;
+    
 }
 
 nav a {
@@ -51,11 +52,13 @@ nav a {
     border-style: solid;
     margin: 0px 8px;
     display: inline-block;
-    
+    font-family: "Bebas Neue";
+    letter-spacing: 2px;
+    font-size: 1.5em;
 }
 
 nav a:hover {
-    background-color: #ffffff30;
+    background-color: #9c9c9c30;
     transform: scale(1.1);
 }
 
