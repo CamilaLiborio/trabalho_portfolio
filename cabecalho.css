@@ -36,6 +36,8 @@ header h2 {
     font-size: 3em;
 }
 
+
+
 nav {
     margin-top: 32px;
     margin-bottom: 66px;
@@ -62,12 +64,25 @@ nav a:hover {
     transform: scale(1.1);
 }
 
+
 footer {
     width: 100vw;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
     background-color: var(--cor-rodade);
-    color: var(--cor-letras-link);
-    bottom: 0;
-    padding: 12px;
+    color: var(--cor-letra-rodape);
+    margin-top: 200px;
+    display: inline-block;
 }
+
+
+.contato {
+    display: inline-block;
+    text-align: center;
+    width: 185%;
+    height: 60px;
+}
+
+.contato > p{
+    margin-top: 15px;
+}
+

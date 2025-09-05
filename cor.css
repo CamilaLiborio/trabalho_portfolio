@@ -2,9 +2,12 @@
     --cor-cabecalho-inicial: #023658;
     --cor-letras-link: #ffffff;
     --cor-botao-cabecalho: #023658;
-    --cor-rodade: #333;
+    --cor-botao-projeto:#023658;
+    --cor-fundo-botaop: rgb(255, 255, 255);
+    --cor-rodade: #ffffff69;
     --cor-degrade-cabecalho:rgb(137, 186, 250);
     --cor-card: #023658;
     --cor-fundo-body:rgb(137, 186, 250);
     --cor-letras-p: rgb(1, 22, 61);
+    --cor-letra-rodape: black;
 }

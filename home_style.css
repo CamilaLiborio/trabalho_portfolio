@@ -13,6 +13,7 @@ main {
 }
 
 main h2 {
+    margin-top: 30px;
     text-align: center;
     font-size: 3.2em;
     color: var(--cor-cabecalho-inicial);
@@ -32,6 +33,7 @@ main h2 {
 }
 
 
+
 .card-curso {
     display: inline-block;
     border-radius: 15px;
@@ -39,12 +41,13 @@ main h2 {
     height: 430px;
     text-align: center;
     margin: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.527);
     background-color: var(--cor-card);
     color: var(--cor-letras-link);
 }
 
 .card-curso:hover {
-    transform: scale(1.10);
+    transform: scale(1.02);
 }
 .card-curso > img {
     width: 90%;
@@ -75,13 +78,14 @@ main h2 {
     height: 440px;
     text-align: center;
     margin: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.527);
     background-color: var(--cor-card);
     color: var(--cor-letras-link);
     
 }
 
 .card-curso-lot:hover {
-    transform: scale(1.10);
+    transform: scale(1.02);
 }
 
 .card-curso-lot > img {
@@ -96,7 +100,7 @@ main h2 {
     margin: 1px 10px;
     font-size: 1.3em;
     font-family: "Bebas Neue", Arial;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
 .card-curso-lot > p {
@@ -110,23 +114,109 @@ main h2 {
 
 
 
-.card-projeto {
-    display: inline-block;
+.card-calculadora {
+    display:inline-table;
     border-radius: 15px;
     width: 480px;
-    height: 220px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.534);
-    text-align: center;
+    height: 340px;
     margin: 20px;
+    margin-top: 35px;
+    background-color: var(--cor-card);
+    color: var(--cor-letras-link);
+    
+}
+
+.card-calculadora > h3 {
+    text-align: center;
+    font-size: 1.6em;
+    margin: 20px;
+    font-family: "Bebas Neue", Arial;
+    letter-spacing: 3px;
+    
+}
+
+.card-calculadora > p {
+    text-align: left;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin: 10px;
+    
+}
+
+
+
+.card-py {
+    display:inline-table;
+    border-radius: 15px;
+    width: 480px;
+    height: 385px;
+    margin: 20px;
+    margin-top: 35px;
     background-color: var(--cor-card);
     color: var(--cor-letras-link);
 }
 
-.card-projeto > h3 {
+.card-py >h3 {
     text-align: center;
+    font-size: 1.6em;
     margin: 20px;
     font-family: "Bebas Neue", Arial;
-    letter-spacing: 2px;
-
+    letter-spacing: 3px;
 }
 
+.card-py > p {
+    text-align: left;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin: 37px ;
+}
+
+
+
+.card-receitas {
+    display:inline-table;
+    border-radius: 15px;
+    width: 480px;
+    height: 380px;
+    margin: 20px;
+    margin-top: 35px;
+    background-color: var(--cor-card);
+    color: var(--cor-letras-link);
+}
+
+.card-receitas >h3 {
+    text-align: center;
+    font-size: 1.6em;
+    margin: 20px;
+    font-family: "Bebas Neue", Arial;
+    letter-spacing: 3px;
+}
+
+.card-receitas > p {
+    text-align: left;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+
+.botao {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 4px 50px;;
+    border: 3px;
+    margin: 30px ;
+    font-family: "Bebas Neue";
+    letter-spacing: 3px;
+    font-size: 1.2em;
+    color: var(--cor-botao-projeto);
+    background-color: var(--cor-fundo-botaop);
+}
+
+.botao:hover {
+    transform: scale(1.10);
+}
