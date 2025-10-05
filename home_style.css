@@ -3,52 +3,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+/*PRINCIPAL*/
 body {
     background-color: var(--cor-fundo-body);
 }
 
 main { 
     text-align: center;
-    margin-top: 20px;
 }
 
 main h2 {
     margin-top: 30px;
-    text-align: center;
-    font-size: 3.2em;
-    color: var(--cor-cabecalho-inicial);
-    text-shadow: 4px 3px 8px rgba(255, 255, 255, 0.699);
     margin-bottom: 15px;    
-    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 4px 3px 8px rgb(255, 255, 255);
     font-family: "Bebas Neue", Arial;
+    font-size: 3.2em;
+    letter-spacing: 2px;
+    color: var(--cor-cabecalho-inicial);
 }
 
+
+/*CARD FOTO*/
+.sobremim-foto {
+    display: inline-block;
+    border-radius: 15px;
+    width: 450px;
+    height: 550px;
+    align-items: center;
+}
+
+.sobremim-foto > img {
+    width: 400px; 
+    border-radius: 10px;
+    border: 10px solid var(--cor-borda-foto);
+}
+
+/*SOBRE MIM*/
+.sobremim {
+    display: inline-block;
+    border-radius: 15px;
+}
 
 .sobremim p {
-    padding: 10px 80px;
-    color: var(--cor-letras-p);
-    text-align: left;
-    font-size: 1.2em;
-    letter-spacing: 1px;
+    width: 660px;
+    height: 600px;
+    text-align: left; 
+    font-size: 1.35em;
+    line-height: 1.3;
+    padding: 20px;
+    color: var(--cor-letras-p); 
 }
 
 
-
+/*CURSOS*/
 .card-curso {
     display: inline-block;
     border-radius: 15px;
-    width: 380px;
-    height: 430px;
+    width: 430px;
+    height: 480px;
     text-align: center;
     margin: 15px;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.527);
     background-color: var(--cor-card);
-    color: var(--cor-letras-link);
+    color: var(--cor-letras);
 }
 
-.card-curso:hover {
-    transform: scale(1.02);
-}
 .card-curso > img {
     width: 90%;
     height: 200px;
@@ -66,140 +86,147 @@ main h2 {
 
 .card-curso >p {
     text-align: left;
-    padding: 10px;
+    padding: 15px;
     letter-spacing: 2px;
-    color: var(--cor-letras-link);
+    color: var(--cor-letras);
 }
 
+/*CURSO CARD LOT*/
 .card-curso-lot {
     display: inline-block;
     border-radius: 15px;
-    width: 380px;
-    height: 440px;
+    width: 430px;
+    height: 480px;
     text-align: center;
     margin: 15px;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.527);
     background-color: var(--cor-card);
-    color: var(--cor-letras-link);
-    
-}
-
-.card-curso-lot:hover {
-    transform: scale(1.02);
+    color: var(--cor-letras);
 }
 
 .card-curso-lot > img {
-    width: 90%;
+    width: 80%;
     height: 200px;
-    margin: 10px;
+    margin: 10px 10px;
     border-radius: 5px;
     object-fit: cover;
 }
 
-.card-curso-lot > h3 {
-    margin: 1px 10px;
-    font-size: 1.3em;
-    font-family: "Bebas Neue", Arial;
-    letter-spacing: 4px;
-}
-
-.card-curso-lot > p {
-    text-align: left;
-    padding: 10px;
-    letter-spacing: 2px;
-    font-size: 14px;
-    color: var(--cor-letras-link);
-}
-
-
-
-
-.card-calculadora {
-    display:inline-table;
-    border-radius: 15px;
-    width: 480px;
-    height: 340px;
-    margin: 20px;
-    margin-top: 35px;
-    background-color: var(--cor-card);
-    color: var(--cor-letras-link);
-    
-}
-
-.card-calculadora > h3 {
-    text-align: center;
-    font-size: 1.6em;
-    margin: 20px;
+.card-curso-lot >h3 {
+    margin: 0px 10px;
+    font-size: 1.5em;
     font-family: "Bebas Neue", Arial;
     letter-spacing: 3px;
-    
 }
 
-.card-calculadora > p {
+.card-curso-lot >p {
     text-align: left;
-    padding: 5px;
-    letter-spacing: 2px;
-    font-size: 16px;
-    margin: 10px;
-    
+    padding: 15px;
+    letter-spacing: 1px;
+    color: var(--cor-letras);
 }
 
+.certificado {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 30px;
+    margin: 10px;
+    font-family: "Bebas Neue";
+    letter-spacing: 3px;
+    font-size: 1.2em;
+    color: var(--cor-botao-cards);
+    background-color: var(--cor-fundo-botaop);
+}/*botao certificado*/
 
 
-.card-py {
-    display:inline-table;
+/*PROJETOS*/
+/*CARD LANCHONETE*/
+.card-lanchonete {
+    display: inline-table;
     border-radius: 15px;
     width: 480px;
     height: 385px;
     margin: 20px;
-    margin-top: 35px;
     background-color: var(--cor-card);
-    color: var(--cor-letras-link);
+    color: var(--cor-letras);
 }
 
-.card-py >h3 {
+.card-lanchonete > h3 {
     text-align: center;
     font-size: 1.6em;
     margin: 20px;
     font-family: "Bebas Neue", Arial;
     letter-spacing: 3px;
+    
 }
 
-.card-py > p {
+.card-lanchonete > p {
     text-align: left;
-    padding: 5px;
+    padding: 5px 8px;
     letter-spacing: 2px;
-    font-size: 16px;
-    margin: 37px ;
+    font-size: 18px;
+    margin: 36px 10px;
+    
 }
 
-
-
-.card-receitas {
-    display:inline-table;
+/*CARD CALCULADORA*/
+.card-imc {
+    display: inline-table;
     border-radius: 15px;
     width: 480px;
-    height: 380px;
+    height: 383px;
     margin: 20px;
-    margin-top: 35px;
     background-color: var(--cor-card);
-    color: var(--cor-letras-link);
+    color: var(--cor-letras);
 }
 
-.card-receitas >h3 {
+.card-imc > h3 {
     text-align: center;
     font-size: 1.6em;
     margin: 20px;
     font-family: "Bebas Neue", Arial;
     letter-spacing: 3px;
+    
+}
+
+.card-imc > p {
+    text-align: left;
+    padding: 5px 8px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin: 5px 10px;
+    
+}
+
+/*CARD RECEITAS*/
+.card-receitas {
+    display: inline-table;
+    border-radius: 15px;
+    width: 480px;
+    height: 383px;
+    margin: 20px;
+    background-color: var(--cor-card);
+    color: var(--cor-letras);
+}
+
+.card-receitas > h3 {
+    text-align: center;
+    font-size: 1.6em;
+    margin: 25px;
+    font-family: "Bebas Neue", Arial;
+    letter-spacing: 3px;
+    
 }
 
 .card-receitas > p {
     text-align: left;
-    padding: 10px;
+    padding: 5px 8px;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 17px;
     margin: 10px;
+    
 }
 
 
@@ -207,16 +234,12 @@ main h2 {
     display: inline-block;
     text-decoration: none;
     border-radius: 15px;
-    padding: 4px 50px;;
-    border: 3px;
-    margin: 30px ;
+    padding: 10px 20px;
+    border: 30px;
+    margin: 10px;
     font-family: "Bebas Neue";
     letter-spacing: 3px;
     font-size: 1.2em;
-    color: var(--cor-botao-projeto);
+    color: var(--cor-botao-cards);
     background-color: var(--cor-fundo-botaop);
-}
-
-.botao:hover {
-    transform: scale(1.10);
-}
+}/*botao projetos*/

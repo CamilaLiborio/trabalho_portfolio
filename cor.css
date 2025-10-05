@@ -1,13 +1,21 @@
 :root{
-    --cor-cabecalho-inicial: #023658;
-    --cor-letras-link: #ffffff;
-    --cor-botao-cabecalho: #023658;
-    --cor-botao-projeto:#023658;
-    --cor-fundo-botaop: rgb(255, 255, 255);
-    --cor-rodade: #ffffff69;
-    --cor-degrade-cabecalho:rgb(137, 186, 250);
-    --cor-card: #023658;
-    --cor-fundo-body:rgb(137, 186, 250);
-    --cor-letras-p: rgb(1, 22, 61);
-    --cor-letra-rodape: black;
+    /*PRINCIPAL*/
+    --cor-fundo-body:#a7e0fa;
+    --cor-rodade: #00294b;
+    --cor-letra-rodape: rgb(255, 255, 255);
+
+    /*CABECALHO*/
+    --cor-cabecalho-inicial: #00294b;
+    --cor-botao-cabecalho: #00294b;
+    --cor-degrade-cabecalho:#aae3fd;
+
+    /*SOBRE MIM*/
+    --cor-letras-p: #043c69; /*cor texto sobre mim*/
+    --cor-borda-foto:#00294b; /*foto sobre mim*/
+
+    /*GERAL*/
+    --cor-card: #00294b;
+    --cor-botao-cards:#00294b; /*letras botao dos cards*/
+    --cor-fundo-botaop: #ffffff; /*fundo botao dos cards*/
+    --cor-letras: #ffffff; /*letras*/
 }

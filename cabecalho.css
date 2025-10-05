@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url(cor.css);
 
-
+/*principal*/
 * {
     margin: 0;
     padding: 0;
@@ -9,80 +9,75 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*principal do cabecalho*/
 header {    
-    background-image: linear-gradient(to bottom, var(--cor-cabecalho-inicial) 65%,rgb(137, 186, 250));
+    background-image: linear-gradient(to bottom, var(--cor-cabecalho-inicial) 65%,var(--cor-degrade-cabecalho));
     color: var(--cor-letras-link);
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     
 }
 
+/*titulo portifolio*/
 header h1{
-    color: white;
-    font-size: 4em;
-    font-family: "Bebas Neue", sans-serif;
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.582);
     text-align: left;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4em;
+    letter-spacing: 5px;
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.582);
 }
 
+
+/*titulo bem vindo*/
 header h2 {
-    margin-top: 1em;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.582);
     text-align: center;
-    color: white;
+    margin-top: 1em;
     font-family: "Bebas Neue", sans-serif;
     font-size: 3em;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.582);
+    color: var(--cor-letras);
 }
 
 
-
+/*cabacalho*/
 nav {
-    margin-top: 32px;
-    margin-bottom: 66px;
+    margin-top: 50px;
+    margin-bottom: 70px;
     
 }
 
+
+/*botao cabacalho*/
 nav a {
-    text-decoration: none;
-    color: var(--cor-letras-link);
-    background-color: var(--cor-botao-cabecalho);
-    border-radius: 25px;
-    padding: 14px 48px;;
-    border: 2px;
-    border-style: solid;
-    margin: 0px 8px;
     display: inline-block;
+    border: 3px solid;
+    border-radius: 17px;
+    padding: 10px 90px;;
+    margin: 10px 10px;
+    letter-spacing: 3px;
+    font-size: 1.7em;
     font-family: "Bebas Neue";
-    letter-spacing: 2px;
-    font-size: 1.5em;
+    text-decoration: none;
+    color: var(--cor-letras);
+    background-color: var(--cor-botao-cabecalho);
 }
 
+/*movimento dos botões*/
 nav a:hover {
-    background-color: #9c9c9c30;
     transform: scale(1.1);
+    background-color: #9c9c9c30;
 }
 
-
+/*rodapé*/
 footer {
-    width: 100vw;
-    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    padding: 30px 50px;
     background-color: var(--cor-rodade);
     color: var(--cor-letra-rodape);
-    margin-top: 200px;
-    display: inline-block;
 }
 
-
-.contato {
-    display: inline-block;
-    text-align: center;
-    width: 185%;
-    height: 60px;
-}
-
-.contato > p{
-    margin-top: 15px;
-}
 
