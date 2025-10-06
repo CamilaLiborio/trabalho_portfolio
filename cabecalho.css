@@ -58,7 +58,7 @@ nav a {
     margin: 10px 10px;
     letter-spacing: 3px;
     font-size: 1.7em;
-    font-family: "Bebas Neue";
+    font-family: "Bebas Neue", Arial;
     text-decoration: none;
     color: var(--cor-letras);
     background-color: var(--cor-botao-cabecalho);
@@ -72,7 +72,7 @@ nav a:hover {
 
 /*rodapé*/
 footer {
-    text-align: center;
+    text-align:right;
     width: 100%;
     margin-top: 100px;
     padding: 30px 50px;
@@ -80,4 +80,10 @@ footer {
     color: var(--cor-letra-rodape);
 }
 
+#contato {
+    margin: 10px;
+}
 
+.direito {
+    letter-spacing: 1px;
+}

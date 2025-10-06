@@ -229,7 +229,6 @@ main h2 {
     
 }
 
-
 .botao {
     display: inline-block;
     text-decoration: none;
@@ -243,3 +242,41 @@ main h2 {
     color: var(--cor-botao-cards);
     background-color: var(--cor-fundo-botaop);
 }/*botao projetos*/
+
+
+/*CONTATO*/
+/*texto do contato*/
+.texto-contato {
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-family: "Bebas Neue", Arial;
+    letter-spacing: 2px;
+    color: var(--cor-letras-p);
+}
+
+/*icones*/
+.infos {
+    margin: 30px 20px;
+}
+
+/*div do curriculo*/
+.div-curriculo {
+    margin-top: 45px;
+}
+
+/*botão do currículo (div, letra)*/
+.curriculo {
+    padding: 20px 25px;
+    border-radius: 10px;
+    font-family: "Bebas Neue", Arial;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background-color: var(--cor-botao-cabecalho);
+    color: white;
+}
+
+/*botão do curículo(cor movimentação)*/
+.div-curriculo a:hover{   
+    background-color: #4ea9ffc0;
+}
